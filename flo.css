@@ -43,7 +43,7 @@ header .main-navbar ul li a {
 }
 
 header .main-navbar ul li a:hover {
-    background:  #747474;;
+    background:  #8b8b8b;
     color: #fff;
 }
 
@@ -85,13 +85,9 @@ img {
     text-decoration: none;
 }
 
-header.main-navbar ul li.lux a {
+header .main-navbar ul li.active a {
     color: #00b39b;
     cursor: pointer;
-}
-
-header .main-navbar ul li.active a {
-    color: #00b39b;;
 }
 
 .service-section,
@@ -386,8 +382,9 @@ h1{
     text-align: center;
 }
 
-h2 {
+rem {
     align-items: left;
+    text-align: center;
 }
 
 footer {
